@@ -31,7 +31,7 @@ public class CharacterDatabase : ScriptableObject
     public int ExportSpriteWidth = 16;
     public int ExportSpriteHeight = 32;
     public bool UseImageSizeForSpriteDimensions = false;
-    public List<Texture2D> TexturesToGenerate = new();
+    public List<Texture2D> TexturesToGenerateSpriteDataFor = new();
 }
 
 
@@ -111,7 +111,7 @@ public class CharacterDatabaseEditor : Editor
             
             {
                 var database = (CharacterDatabase)target;
-                foreach (Texture2D texture in database.TexturesToGenerate)
+                foreach (Texture2D texture in database.TexturesToGenerateSpriteDataFor)
                 {
                     var activeTexture = texture;
                     if (!activeTexture.isReadable)
