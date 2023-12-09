@@ -25,7 +25,6 @@ public class CharacterDatabase : ScriptableObject
         public CharacterStateData[] States;
     }
 
-    public List<CharacterData> CharacterDatas = new();
     public List<string> CharacterNames;
     public List<CharacterStateData> CharacterStates = new();
 
@@ -93,12 +92,6 @@ public class CharacterDatabaseEditor : Editor
             }
             
             AssetDatabase.Refresh();
-        }
-
-        if (GUILayout.Button("Test bytes"))
-        {
-            byte testByte = 5;
-            Debug.Log($"0x{testByte.ToString("x2").ToLower()}");
         }
 
         if (GUILayout.Button("Generate Sprite Datas"))
