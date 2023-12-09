@@ -1,0 +1,2 @@
+Drop sprites here
+Drag them into the SpriteProcessor scriptable object, and use the inspector GUI to generate sprite data in this folder.

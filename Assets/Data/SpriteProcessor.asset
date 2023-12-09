@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067980dc6902a4d17bbe210b019a9e88, type: 3}
+  m_Name: SpriteProcessor
+  m_EditorClassIdentifier: 
+  CharacterDatas:
+  - Name: Jonas
+    States:
+    - StateName: Idle
+      ImageWidth: 0
+      ImageHeight: 0
+      Frames: 0
+    - StateName: Wa
+      ImageWidth: 0
+      ImageHeight: 0
+      Frames: 0
+    - StateName: 
+      ImageWidth: 0
+      ImageHeight: 0
+      Frames: 0
+    - StateName: 
+      ImageWidth: 0
+      ImageHeight: 0
+      Frames: 0
+  - Name: Lyle
+    States: []
+  CharacterNames:
+  - henry
+  - ruhaan
+  - mason
+  - jaxon
+  - robotsteve
+  - nola
+  - val
+  - pineappleMurphy
+  CharacterStates:
+  - StateName: idle
+    ImageWidth: 16
+    ImageHeight: 32
+    Frames: 2
+  - StateName: run
+    ImageWidth: 16
+    ImageHeight: 32
+    Frames: 10
+  - StateName: jump
+    ImageWidth: 16
+    ImageHeight: 32
+    Frames: 1
+  - StateName: fall
+    ImageWidth: 16
+    ImageHeight: 32
+    Frames: 1
+  ExportSpriteWidth: 16
+  ExportSpriteHeight: 32
+  UseImageSizeForSpriteDimensions: 1
+  TexturesToGenerate:
+  - {fileID: 2800000, guid: 1432d7f5417fe4fc49eec36cad82844a, type: 3}
+  - {fileID: 2800000, guid: c642b98e8ebed4002870c79af245f731, type: 3}
+  - {fileID: 2800000, guid: ccab715a788524627902fecae13ac806, type: 3}
