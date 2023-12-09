@@ -63,3 +63,9 @@ crashlytics-build.properties
 
 .idea
 
+# exported asset stuff
+Assets/ExportedAssets/*.png
+Assets/ExportedAssets/*.png.meta
+Assets/ExportedAssets/spriteData.txt
+Assets/ExportedAssets/spriteData.txt.meta
+
